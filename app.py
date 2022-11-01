@@ -5,7 +5,7 @@ from flask import Flask, request, render_template, jsonify, json
 app = Flask("__name__")
 
 
-@app.route("/details", methods=["GET"])
+@app.route("/", methods=["GET"])
 
 def user_detail():
     return {"slackUsername" : "Leele Barry Baribeop",
